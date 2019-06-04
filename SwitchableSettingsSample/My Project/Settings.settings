@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Description="SQL Server データベースへの接続文字列を取得します。" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=MAINSVR;Initial Catalog=Umbreon;User ID=hoge;Password=hogehoge;</Value>
+    </Setting>
+    <Setting Name="CommandTimeoutSeconds" Description="SQL Server に対してコマンドを実行してエラー終了するまでのタイムアウト時間を秒単位で取得します。" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="InputPath" Description="入力ファイルのパスを取得または設定します。" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Test\input.txt</Value>
+    </Setting>
+    <Setting Name="OutputPath" Description="出力ファイルのパスを取得または設定します。" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Test\output.txt</Value>
+    </Setting>
+    <Setting Name="CheckedValue" Description="チェック ボックスの選択状態を取得または設定します。" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ListSelectedIndex" Description="リスト ボックスの選択インデックスを取得または設定します。" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
